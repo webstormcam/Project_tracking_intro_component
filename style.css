@@ -6,3 +6,31 @@ body{
     font-family: 'Barlow', sans-serif;
 font-family: 'Barlow Condensed', sans-serif;
 }
+
+#container{
+    display: grid;
+    grid-template-areas: 'first'
+                        'second';
+                        gap: 40px;
+                        grid-auto-rows: 1fr;
+}
+
+.section1{
+grid-area: first;
+}
+
+.top-bar-mobile{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 2rem;
+}
+
+.ham{
+    height: 1.2rem;
+}
+
+.section2{
+grid-area: second;
+}
