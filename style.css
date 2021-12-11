@@ -24,18 +24,30 @@ grid-area: first;
     display: grid;
   grid-template-columns: 1fr 1fr;
   height: 100%;
+  position: relative;
 }
 
 .half-grey{
     background-color: #EDF2F6;
     border-bottom-left-radius: 1rem;
     border-top-left-radius: 1rem;
+    display: flex;
+    justify-content: flex-end;
+   
 }
 
 
 
 .ham{
     height: 1.2rem;
+    margin-top: 1.2rem ;
+    margin-right: 1.5rem;
+}
+
+.logo{
+    height: 1.5rem;
+    margin-top: 1.1rem ;
+    margin-left: 1.5rem;
 }
 
 .section2{
