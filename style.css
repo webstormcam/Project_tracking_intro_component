@@ -53,12 +53,17 @@ grid-area: first;
     margin-left: 2rem;
 }
 
-.comp{
- max-width: 30rem;
-   height: auto;
+.image_holder{
     position: absolute;
+    width: 137vw;
+    height: 80vh;
     top: 8rem;
-    left: 1rem;
+}
+
+.comp{
+ max-width: 100%;
+ height: auto;
+ max-height: 100%;
 }
 
 .section2{
