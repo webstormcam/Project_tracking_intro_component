@@ -14,10 +14,12 @@ font-family: 'Barlow Condensed', sans-serif;
                         gap: 40px;
                         grid-auto-rows: 425px;
                         overflow-x: hidden;
+                       
 }
 
 .section1{
 grid-area: first;
+
 
 
 }
@@ -27,6 +29,7 @@ grid-area: first;
   grid-template-columns: 1fr 1fr;
   height: 100%;
   position: relative;
+  
 
 }
 
@@ -56,9 +59,14 @@ grid-area: first;
 
 .image_holder{
     position: absolute;
-  width: 32rem;
+  width: 30rem;
     top: 8rem;
-    right: -9rem;
+    right: -7rem;
+    
+    
+    
+ 
+  
     
 }
 
@@ -68,6 +76,34 @@ grid-area: first;
  max-height: 100%;
 }
 
+
+
+
 .section2{
 grid-area: second;
+}
+
+
+@media screen and (min-width:477px){
+    .image_holder{
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        text-align: center;
+        width: 32rem;
+        
+    }
+}
+
+@media screen and (min-width:768px){
+    .image_holder{
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        text-align: center;
+        width: 40rem;
+        
+    }
 }
