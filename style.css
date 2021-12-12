@@ -83,6 +83,14 @@ grid-area: first;
 grid-area: second;
 }
 
+@media screen and (min-width:400px){
+    .image_holder{
+      right: -4rem;
+      
+        
+    }
+}
+
 
 @media screen and (min-width:477px){
     .image_holder{
@@ -91,7 +99,7 @@ grid-area: second;
         left: 0;
         right: 0;
         text-align: center;
-        width: 32rem;
+        width: 29rem;
         
     }
 }
