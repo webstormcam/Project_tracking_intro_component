@@ -36,6 +36,7 @@ grid-area: first;
   width: 100%;
     display: flex;
     justify-content: flex-end;
+    height: 50vh;
    
 }
 
@@ -55,9 +56,10 @@ grid-area: first;
 
 .image_holder{
     position: absolute;
-    width: 135vw;
-    height: 80vh;
+  width: 32rem;
     top: 8rem;
+    right: -9rem;
+    
 }
 
 .comp{
