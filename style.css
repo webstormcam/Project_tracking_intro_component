@@ -83,6 +83,13 @@ grid-area: first;
 grid-area: second;
 }
 
+.section2-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 @media screen and (min-width:400px){
     .image_holder{
       right: -4rem;
