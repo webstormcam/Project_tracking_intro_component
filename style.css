@@ -3,7 +3,6 @@
 }
 
 body{
-    font-family: 'Barlow', sans-serif;
 font-family: 'Barlow Condensed', sans-serif;
 }
 
@@ -87,6 +86,30 @@ grid-area: second;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+}
+
+.B_W{
+    padding: 0.4rem;
+    border-radius: 1rem;
+    color: white;
+    background-color: #242942;
+    font-weight: bold;
+    font-family: 'Barlow', sans-serif;
+    letter-spacing: 0.1rem;
+    font-size: 0.8rem;
+    margin-right: 1rem;
+}
+
+.toptext{
+    font-size: 1.1rem;
+    letter-spacing: 0.2rem;
+    color: #979797;
+}
+
+.topbox{
+    display: flex;
+    flex-direction: row;
     align-items: center;
 }
 
