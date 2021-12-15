@@ -86,7 +86,9 @@ grid-area: second;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+  padding-left: 2rem;
+  
+  
 }
 
 .B_W{
@@ -111,6 +113,19 @@ grid-area: second;
     display: flex;
     flex-direction: row;
     align-items: center;
+}
+
+h1{
+    font-size: 2rem;
+    font-weight: 900;
+    font-family: 'Barlow', sans-serif;
+    margin-top: 1rem;
+    line-height: 2.4rem;
+}
+
+.lowertext{
+    margin-top: 1rem;
+    font-size: 1.3rem;
 }
 
 @media screen and (min-width:400px){
