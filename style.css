@@ -129,6 +129,27 @@ h1{
     font-size: 1.3rem;
 }
 
+.buttonsec{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    width: 300px;
+    margin-top: 2rem;
+    justify-content: space-between;
+ 
+}
+
+.demo{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 0.9rem;
+    background-color: #FF5E5E;
+    border-radius: 0.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
 @media screen and (min-width:400px){
     .image_holder{
       right: -4rem;
