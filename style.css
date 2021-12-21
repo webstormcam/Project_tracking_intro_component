@@ -150,6 +150,12 @@ h1{
     padding-right: 2rem;
 }
 
+.preview{
+    color: #979797;
+    letter-spacing: 0.1rem;
+    margin-left: 0.5rem;
+}
+
 @media screen and (min-width:400px){
     .image_holder{
       right: -4rem;
