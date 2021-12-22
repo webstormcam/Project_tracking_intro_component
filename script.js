@@ -1,11 +1,12 @@
-let ham = document.getElementById('ham')
+
 
 function changeImage(){
-    if(ham.src ==='imgs/icon-close.svg'){
-        ham.src = 'imgs/icon-hamburger.svg'
-    } 
-    else{
-        ham.src ='imgs/icon-close.svg'
+    let hampic = document.getElementById('ham');
+    if(hampic.src === 'imgs/icon-close.svg'){
+        hampic.src ='imgs/icon-hamburger.svg'
+    } else{
+        hampic.src ='imgs/icon-close.svg'
     }
     console.log('click')
 }
+
