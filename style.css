@@ -188,12 +188,15 @@ color: crimson;
 }
 
 .logincont{
-    border-top: 1px solid black;
+    border-top: 1px solid  grey;
     margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
 }
 
  .logincont  #login{
    color: grey;
+   margin-top: 1rem;
 }
 
 
