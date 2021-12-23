@@ -12,7 +12,7 @@ font-family: 'Barlow Condensed', sans-serif;
                         'second';
                         gap: 40px;
                         grid-auto-rows: 425px;
-                        grid-template-rows: 425px 275px;
+                        grid-template-rows: 425px 280px;
                         overflow-x: hidden;
                        
 }
