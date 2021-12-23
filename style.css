@@ -12,7 +12,7 @@ font-family: 'Barlow Condensed', sans-serif;
                         'second';
                         gap: 40px;
                         grid-auto-rows: 425px;
-                        grid-template-rows: 425px 300px;
+                        grid-template-rows: 425px 275px;
                         overflow-x: hidden;
                        
 }
@@ -230,7 +230,7 @@ color: crimson;
         margin-right: auto;
         left: 0;
         right: 0;
-        text-align: center;
+       
         width: 40rem;
         
     }
