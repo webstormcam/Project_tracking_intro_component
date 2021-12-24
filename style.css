@@ -392,7 +392,34 @@ color: crimson;
 
 @media  screen and (min-width:1650px) {
     
+    .comp{
+        width: 73rem;
+    
+       
+       }
 
+       .image_holder{
+        left: -32rem;
+        top: 8rem;
+    }
+
+    .bigwords a{
+    font-size: 1.5rem;
+    }
+
+    .section2-content{
+        margin-top: 7rem;
+    }
+
+    h1{
+        font-size: 5rem;
+        width: 600px;
+        line-height: 5rem;
+    }
+
+    .secondlogoholder{
+        width: 530px;
+    }
    
 }
 
