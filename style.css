@@ -12,7 +12,7 @@ font-family: 'Barlow Condensed', sans-serif;
                         'second';
                         gap: 40px;
                         grid-auto-rows: 425px;
-                        grid-template-rows: 425px 300px;
+                        grid-template-rows: 425px 400px;
                         overflow-x: hidden;
                        
 }
@@ -240,6 +240,27 @@ color: crimson;
     }
 }
 
+@media screen and (min-width:536px) {
+    .section2{
+        display: flex;
+        align-items: center;
+       flex-direction: column;
+    }
+
+    h1{
+        width: 600px;
+    }
+
+    .lowertext{
+        width: 300px;
+    }
+
+    .buttonsec{
+        width: 400px;
+        max-width: none;
+    }
+}
+
 @media screen and (min-width:768px){
     .image_holder{
         margin-left: auto;
@@ -251,6 +272,8 @@ color: crimson;
         
     }
 
+    
+
 @media screen and (min-width:1024px){
     #container{
         display: grid;
@@ -259,6 +282,10 @@ color: crimson;
                             grid-auto-rows: 500px;
                             overflow-x: hidden;
                            
+    }
+
+    .buttonsec{
+        max-width: 357px;
     }
 
     .section1{
