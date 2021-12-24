@@ -353,4 +353,33 @@ color: crimson;
         }
 }
 
+@media screen and (min-width:1300px) {
+    .section2-content{
+        padding-left: 4rem;
+    }
+
+    h1{
+        font-size: 3.5rem;
+        width: 500px;
+        line-height: 3.7rem;
+      
+    }
+
+    .logo2{
+       
+       margin-left: 4rem;
+    }
+
+    .comp{
+        width: 50rem;
+    
+       
+       }
+
+       .image_holder{
+           left: -7rem;
+           top: 8rem;
+       }
+}
+
 }
