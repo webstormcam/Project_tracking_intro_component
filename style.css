@@ -260,7 +260,6 @@ color: crimson;
 
         .section1-content{
             display: grid;
-          grid-template-areas: 'grey';
           grid-template-columns: 1fr;
           height: 100%;
           position: relative;
@@ -269,8 +268,14 @@ color: crimson;
         }
 
         .half-grey{
-            grid-area: 'grey';
+            justify-content: flex-start;
         }
+
+        #ham{
+            display: none;
+        }
+
+        
 
         .logo2{
             display: block;
@@ -278,10 +283,7 @@ color: crimson;
            width: 30px;
         }
 
-        .section2-content{
-       
-           
-        }
+        
 
         .logo1{
             display: none;
