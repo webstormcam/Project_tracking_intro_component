@@ -359,6 +359,10 @@ color: crimson;
             font-weight: 900;
         }
 
+        .bigwords a:hover{
+            color: crimson;
+        }
+
       .biglogin{
           margin-top: 2rem;
       }
