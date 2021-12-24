@@ -417,6 +417,14 @@ color: crimson;
         line-height: 5rem;
     }
 
+    .lowertext{
+        font-size: 1.8rem;
+        width: 350px;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        line-height: 2.5rem;
+    }
+
     .secondlogoholder{
         width: 530px;
     }
