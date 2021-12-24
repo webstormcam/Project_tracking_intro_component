@@ -129,7 +129,7 @@ grid-area: second;
 h1{
     font-size: 2rem;
     font-weight: 900;
-    font-family: 'Barlow', sans-serif;
+    font-family: 'Barlow Condensed', sans-serif;
     margin-top: 1rem;
     line-height: 2.4rem;
     color: #242942;
@@ -272,6 +272,13 @@ color: crimson;
         
     }
 
+    #container{
+        display: grid;
+  gap: 100px;
+                           
+    }
+}
+
     
 
 @media screen and (min-width:1024px){
@@ -302,6 +309,7 @@ color: crimson;
 
         .secondlogoholder{
             width: 432px ;
+            padding-left: 2rem;
         }
 
         .section1-content{
@@ -329,7 +337,7 @@ color: crimson;
         h1{
             font-size: 3rem;
             font-weight: 900;
-            font-family: 'Barlow Condensed', sans-serif;
+         
             margin-top: 1rem;
             line-height: 3rem;
             color: #242942;
@@ -415,6 +423,12 @@ color: crimson;
            left: -13rem;
            top: 8rem;
        }
+
+       .secondlogoholder{
+    
+        padding-left: 0rem;
+    }
+   
 }
 
 @media  screen and (min-width:1650px) {
@@ -454,6 +468,7 @@ color: crimson;
 
     .secondlogoholder{
         width: 530px;
+        padding-left: 0rem;
     }
    
 }
