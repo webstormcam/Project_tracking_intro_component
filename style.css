@@ -257,19 +257,24 @@ color: crimson;
                            
     }
 
+    .section1{
+        background-color: #EDF2F6;
+        border-bottom-left-radius: 4rem;
+    }
+
     .section2{
        display: flex;
-       align-items: center;
+       
+       flex-direction: column;
    
         }
 
         .section1-content{
-            display: grid;
-          grid-template-columns: 1fr;
+            display: flex;
           height: 100%;
           position: relative;
-          background-color: #EDF2F6;
-          border-bottom-left-radius: 4rem;
+   
+         justify-content: space-around;
           
         
         }
@@ -285,8 +290,21 @@ color: crimson;
         .bigwords{
             display: flex;
             flex-direction: row;
-            width: 100%;
+            justify-content: space-evenly;
         }
+
+        .bigwords a{
+            margin-left: 2rem;
+            margin-right: 2rem;
+            margin-top: 2rem;
+            text-decoration: none;
+            color: black;
+            font-weight: 900;
+        }
+
+      .biglogin{
+          margin-top: 2rem;
+      }
 
         
 
@@ -294,6 +312,8 @@ color: crimson;
             display: block;
             height: 2rem;
            width: 30px;
+           margin-top: 2rem;
+           margin-left: 2rem;
         }
 
         
