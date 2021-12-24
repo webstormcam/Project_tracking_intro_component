@@ -213,6 +213,10 @@ color: crimson;
    margin-top: 1rem;
 }
 
+.secondlogoholder{
+    display: none;
+}
+
 
 
 @media screen and (min-width:400px){
@@ -264,9 +268,13 @@ color: crimson;
 
     .section2{
        display: flex;
-       
+       align-items: center;
        flex-direction: column;
    
+        }
+
+        .secondlogoholder{
+            width: 432px ;
         }
 
         .section1-content{
@@ -320,6 +328,10 @@ color: crimson;
           margin-top: 2rem;
       }
 
+      .secondlogoholder{
+          display: flex;
+      }
+
       .comp{
         width: 45rem;
         height: auto;
@@ -339,7 +351,7 @@ color: crimson;
             height: 2rem;
            width: 30px;
            margin-top: 2rem;
-           margin-left: 2rem;
+           
         }
 
         
@@ -365,11 +377,7 @@ color: crimson;
       
     }
 
-    .logo2{
-       
-       margin-left: 4rem;
-    }
-
+   
     .comp{
         width: 58rem;
     
@@ -380,6 +388,12 @@ color: crimson;
            left: -13rem;
            top: 8rem;
        }
+}
+
+@media  screen and (min-width:1650px) {
+    
+
+   
 }
 
 }
