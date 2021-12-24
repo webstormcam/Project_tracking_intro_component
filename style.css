@@ -321,9 +321,15 @@ color: crimson;
       }
 
       .comp{
-        width: 40rem;
+        width: 47rem;
         height: auto;
         max-height: 100%;
+        max-width: none;
+       }
+
+       .image_holder{
+           top: 7rem;
+           left: -5rem;
        }
 
         
