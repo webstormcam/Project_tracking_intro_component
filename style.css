@@ -75,6 +75,11 @@ grid-area: first;
     
 }
 
+
+.bigwords{
+  display: none;
+}
+
 .comp{
  max-width: 100%;
  height: auto;
@@ -263,16 +268,24 @@ color: crimson;
           grid-template-columns: 1fr;
           height: 100%;
           position: relative;
+          background-color: #EDF2F6;
+          border-bottom-left-radius: 4rem;
           
         
         }
 
         .half-grey{
-            justify-content: flex-start;
+            display: none;
         }
 
         #ham{
             display: none;
+        }
+
+        .bigwords{
+            display: flex;
+            flex-direction: row;
+            width: 100%;
         }
 
         
