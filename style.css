@@ -279,12 +279,26 @@ color: crimson;
         
         }
 
+        .section2-content{
+            margin-top: 5rem;
+        }
+
         .half-grey{
             display: none;
         }
 
         #ham{
             display: none;
+        }
+
+        h1{
+            font-size: 3rem;
+            font-weight: 900;
+            font-family: 'Barlow Condensed', sans-serif;
+            margin-top: 1rem;
+            line-height: 3rem;
+            color: #242942;
+            width: 400px;
         }
 
         .bigwords{
@@ -305,6 +319,12 @@ color: crimson;
       .biglogin{
           margin-top: 2rem;
       }
+
+      .comp{
+        width: 40rem;
+        height: auto;
+        max-height: 100%;
+       }
 
         
 
